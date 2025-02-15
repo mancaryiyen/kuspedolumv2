@@ -48,11 +48,6 @@ button:disabled {
     text-align: center;
 }
 
-#time-display {
-    font-size: 30px;
-    font-weight: bold;
-}
-
 #silo-status {
     margin-top: 20px;
 }
@@ -64,4 +59,9 @@ button:disabled {
 
 #silo-list li {
     margin-bottom: 10px;
+}
+
+#report-list {
+    list-style-type: none;
+    padding: 0;
 }
