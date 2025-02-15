@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Küspe Dolum Takip Sistemi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Küspe Dolum Takip Sistemi</h1>
+        <div id="silo-status">
+            <h2>Silo Durumu</h2>
+            <ul id="silo-list">
+                <!-- Siloların durumu burada listelenecek -->
+            </ul>
+        </div>
+        
+        <div id="timer">
+            <h3>Dolum Başlangıç Zamanı</h3>
+            <p id="time-display">00:00</p>
+            <button id="start-button">Başlat</button>
+            <button id="stop-button" disabled>Bitir</button>
+        </div>
+        
+        <div id="report">
+            <h3>Dolum Raporu</h3>
+            <ul id="report-list"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

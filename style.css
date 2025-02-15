@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+}
+
+h1, h2, h3 {
+    color: #2C3E50;
+    text-align: center;
+}
+
+button {
+    background-color: #3498DB;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+button:disabled {
+    background-color: #BDC3C7;
+}
+
+#timer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#time-display {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#silo-status {
+    margin-top: 20px;
+}
+
+#silo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#silo-list li {
+    margin-bottom: 10px;
+}
