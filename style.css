@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f5f5f5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,54 +14,41 @@ body {
 }
 
 .container {
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: 80%;
-    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-h1, h2, h3 {
-    color: #2C3E50;
+.depo {
+    width: 150px;
+    height: 200px;
+    background-color: #2196F3;
+    color: white;
+    border-radius: 10px;
     text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.depo-numara {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.saat, .süre {
+    margin-top: 10px;
 }
 
 button {
-    background-color: #3498DB;
-    color: white;
-    border: none;
+    margin-top: 20px;
     padding: 10px;
-    width: 100%;
-    font-size: 16px;
+    background-color: #ff9800;
+    border: none;
+    color: white;
     cursor: pointer;
-    margin-top: 10px;
     border-radius: 5px;
 }
 
-button:disabled {
-    background-color: #BDC3C7;
-}
-
-#timer {
-    margin-top: 20px;
-    text-align: center;
-}
-
-#silo-status {
-    margin-top: 20px;
-}
-
-#silo-list {
-    list-style-type: none;
-    padding: 0;
-}
-
-#silo-list li {
-    margin-bottom: 10px;
-}
-
-#report-list {
-    list-style-type: none;
-    padding: 0;
+button:hover {
+    background-color: #e68900;
 }
