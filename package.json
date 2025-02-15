@@ -1,0 +1,4 @@
+mkdir silo-dolum-sistemi
+cd silo-dolum-sistemi
+npm init -y
+npm install express sqlite3
