@@ -9,22 +9,28 @@
 <body>
     <div class="container">
         <h1>Küspe Dolum Takip Sistemi</h1>
+        
+        <!-- Silo Durumu -->
         <div id="silo-status">
             <h2>Silo Durumu</h2>
             <ul id="silo-list">
                 <!-- Siloların durumu burada listelenecek -->
             </ul>
         </div>
-        
+
+        <!-- Dolum Zamanı -->
         <div id="timer">
             <h3>Dolum Başlangıç Zamanı</h3>
-            <p id="time-display">00:00</p>
+            <p id="start-time">Başlangıç: 00:00</p>
+            <p id="end-time">Bitiş: 00:00</p>
+            <p id="current-time">Geçen Süre: 00:00</p>
             <button id="start-button">Başlat</button>
             <button id="stop-button" disabled>Bitir</button>
         </div>
-        
+
+        <!-- Raporlar -->
         <div id="report">
-            <h3>Dolum Raporu</h3>
+            <h3>Dolum Raporları</h3>
             <ul id="report-list"></ul>
         </div>
     </div>
